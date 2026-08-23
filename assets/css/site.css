@@ -74,7 +74,7 @@ img { max-width: 100%; height: auto; }
 }
 .mobile-nav summary::-webkit-details-marker { display: none; }
 
-.hero { padding: 88px 0 68px; }
+.hero { padding: 68px 0 52px; }
 .hero h1 { margin-top: 0; }
 .hero-grid {
   display: grid;
@@ -131,7 +131,7 @@ h3 { margin-top: 1.7em; }
   font-weight: 900; margin-bottom: 18px;
 }
 
-.legal-hero { padding: 62px 0 22px; }
+.legal-hero { padding: 44px 0 18px; }
 .legal-hero h1 { font-size: clamp(2.25rem, 5vw, 3.7rem); margin-top: 0; margin-bottom: 10px; }
 .meta { color: var(--muted); font-size: .93rem; }
 .content {
@@ -284,7 +284,7 @@ td { color: #c7d2e3; }
 
   /* Phone-first mobile layout. Wider mobile browsers keep the same compact
      proportions instead of stretching the hero toward a desktop layout. */
-  .hero { padding: 50px 0 44px; }
+  .hero { padding: 30px 0 24px; }
 
   .hero-grid {
     grid-template-columns: 1fr;
@@ -296,7 +296,7 @@ td { color: #c7d2e3; }
 
   .hero h1 {
     font-size: clamp(2.7rem, 12vw, 3.15rem);
-    margin-top: 14px;
+    margin-top: 0;
   }
 
   .hero .lead { font-size: 1.08rem; }
@@ -315,11 +315,14 @@ td { color: #c7d2e3; }
   .hero-mark {
     display: block;
     width: 92px;
-    margin: 28px auto 0;
+    margin: 24px auto 0;
     filter: drop-shadow(0 12px 34px rgba(0,226,251,.14));
   }
 
-  .section { padding: 34px 0 52px; }
+  .section { padding: 28px 0 48px; }
+
+  /* Keep the homepage feature heading visually connected to the mark above it. */
+  .hero + .section { padding-top: 14px; }
 
   .section h2 { margin-top: 1.35em; }
 
@@ -331,9 +334,9 @@ td { color: #c7d2e3; }
 
   .card { padding: 21px; }
 
-  .legal-hero { padding: 46px 0 18px; }
+  .legal-hero { padding: 28px 0 16px; }
 
-  .legal-hero h1 { margin-top: 12px; }
+  .legal-hero h1 { margin-top: 0; }
 
   .content { padding-bottom: 54px; }
 
