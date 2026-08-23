@@ -284,7 +284,7 @@ td { color: #c7d2e3; }
 
   /* Phone-first mobile layout. Wider mobile browsers keep the same compact
      proportions instead of stretching the hero toward a desktop layout. */
-  .hero { padding: 30px 0 24px; }
+  .hero { padding: 30px 0 8px; }
 
   .hero-grid {
     grid-template-columns: 1fr;
@@ -322,7 +322,8 @@ td { color: #c7d2e3; }
   .section { padding: 28px 0 48px; }
 
   /* Keep the homepage feature heading visually connected to the mark above it. */
-  .hero + .section { padding-top: 14px; }
+  .hero + .section { padding-top: 10px; }
+  .hero + .section h2 { margin-top: 0; }
 
   .section h2 { margin-top: 1.35em; }
 
