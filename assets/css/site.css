@@ -74,7 +74,7 @@ img { max-width: 100%; height: auto; }
 }
 .mobile-nav summary::-webkit-details-marker { display: none; }
 
-.hero { padding: 68px 0 52px; }
+.hero { padding: 44px 0 52px; }
 .hero h1 { margin-top: 0; }
 .hero-grid {
   display: grid;
@@ -284,7 +284,7 @@ td { color: #c7d2e3; }
 
   /* Phone-first mobile layout. Wider mobile browsers keep the same compact
      proportions instead of stretching the hero toward a desktop layout. */
-  .hero { padding: 30px 0 8px; }
+  .hero { padding: 28px 0 8px; }
 
   .hero-grid {
     grid-template-columns: 1fr;
